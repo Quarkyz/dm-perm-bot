@@ -1,0 +1,92 @@
+=======================================
+   INSTALLATION DU BOT DISCORD
+=======================================
+
+Ce guide explique comment installer et lancer le bot.
+Lis bien les étapes, et fais-les dans l’ordre.
+
+---------------------------------------
+🖥️ INSTALLATION SUR WINDOWS
+---------------------------------------
+
+1. Installer Node.js
+   - Va sur : https://nodejs.org
+   - Clique sur le bouton vert "LTS".
+   - Installe en laissant toutes les options par défaut (toujours "Suivant").
+
+2. Télécharger le projet
+   - Clique sur le bouton vert "Code" sur GitHub.
+   - Choisis "Download ZIP".
+   - Décompresse le fichier ZIP dans un dossier facile, par exemple :
+     C:\BotDiscord
+
+3. Ouvrir l’invite de commandes
+   - Appuie sur les touches WIN + R.
+   - Tape : cmd
+   - Appuie sur Entrée.
+   - Va dans ton dossier avec :
+     cd C:\BotDiscord
+
+4. Installer les paquets nécessaires
+   Tape :
+   npm install
+
+5. Configurer le fichier .env
+   - Copie le fichier qui s’appelle : .env.example
+   - Renomme-le en : .env
+   - Ouvre-le avec le Bloc-Notes.
+   - Mets tes informations :
+     TOKEN=ton_token_de_bot
+     ALLOWED_USERS=ton_id_utilisateur
+     DEBUG=false
+   - Sauvegarde et ferme le fichier.
+
+6. Démarrer le bot
+   Tape :
+   npm start
+
+7. Le bot est en ligne !
+   Tu peux maintenant lui envoyer un message privé (DM).
+
+---------------------------------------
+🐧 INSTALLATION SUR LINUX
+---------------------------------------
+
+1. Installer Node.js et Git
+   Ouvre un terminal et tape :
+   sudo apt update
+   sudo apt install -y nodejs npm git
+
+2. Télécharger le projet
+   Avec Git :
+   git clone <url_du_repo>
+   cd dm-role-giver
+   (ou décompresse le ZIP et va dans le dossier avec cd)
+
+3. Installer les paquets nécessaires
+   npm install
+
+4. Configurer le fichier .env
+   cp .env.example .env
+   nano .env
+   Mets tes informations :
+   TOKEN=ton_token_de_bot
+   ALLOWED_USERS=ton_id_utilisateur
+   DEBUG=false
+   Sauvegarde avec CTRL+O puis Entrée.
+   Quitte avec CTRL+X.
+
+5. Démarrer le bot
+   npm start
+
+6. Le bot est en ligne !
+   Tu peux maintenant lui envoyer un message privé (DM).
+
+---------------------------------------
+⚠️ RAPPELS IMPORTANTS
+---------------------------------------
+- Le bot doit être ajouté au serveur Discord où tu veux agir.
+- Le bot doit avoir la permission "Gérer les rôles".
+- Le rôle du bot doit être placé au-dessus des rôles qu’il doit donner.
+- Ne montre jamais ton TOKEN à quelqu’un.
+- Mets seulement ton ID (et ceux des personnes de confiance) dans ALLOWED_USERS.

@@ -1,0 +1,28 @@
+=======================================
+   DISCORD BOT COMMANDS
+=======================================
+
+The bot only works in private messages (DM).  
+⚠️ Only IDs authorized in the .env file can use the commands.
+
+---------------------------------------
+🔑 COMMAND: !role <serverId> <roleId> <userId>
+---------------------------------------
+- If the user already has the role → the bot REMOVES it.
+- If the user doesn’t have the role → the bot GIVES it.
+- The bot will check:
+  ✅ If it is in the server.
+  ✅ If it has permission to manage that role.
+  ❌ If it cannot, it will say so.
+
+Example:
+!role 1234567890 9876543210 1122334455
+
+---------------------------------------
+🔝 COMMAND: !maxrole <serverId> <userId>
+---------------------------------------
+- The bot automatically assigns the highest role it can.
+- If it cannot, it will say so.
+
+Example:
+!maxrole 1234567890 1122334455

@@ -1,0 +1,92 @@
+=======================================
+   DISCORD BOT INSTALLATION GUIDE
+=======================================
+
+This guide explains how to install and run the bot.
+Follow the steps carefully, in order.
+
+---------------------------------------
+🖥️ INSTALLATION ON WINDOWS
+---------------------------------------
+
+1. Install Node.js
+   - Go to: https://nodejs.org
+   - Click on the green "LTS" button.
+   - Install by clicking "Next" everywhere (keep default options).
+
+2. Download the project
+   - Click the green "Code" button on GitHub.
+   - Choose "Download ZIP".
+   - Unzip the file into an easy folder, for example:
+     C:\BotDiscord
+
+3. Open Command Prompt
+   - Press WIN + R.
+   - Type: cmd
+   - Press Enter.
+   - Go to your folder with:
+     cd C:\BotDiscord
+
+4. Install required packages
+   Type:
+   npm install
+
+5. Configure the .env file
+   - Copy the file called: .env.example
+   - Rename it to: .env
+   - Open it with Notepad.
+   - Put your information:
+     TOKEN=your_bot_token
+     ALLOWED_USERS=your_user_id
+     DEBUG=false
+   - Save and close the file.
+
+6. Start the bot
+   Type:
+   npm start
+
+7. The bot is now online!
+   You can send it a private message (DM).
+
+---------------------------------------
+🐧 INSTALLATION ON LINUX
+---------------------------------------
+
+1. Install Node.js and Git
+   Open a terminal and type:
+   sudo apt update
+   sudo apt install -y nodejs npm git
+
+2. Download the project
+   Using Git:
+   git clone <repo_url>
+   cd dm-role-giver
+   (or unzip the ZIP and go into the folder with cd)
+
+3. Install required packages
+   npm install
+
+4. Configure the .env file
+   cp .env.example .env
+   nano .env
+   Put your information:
+   TOKEN=your_bot_token
+   ALLOWED_USERS=your_user_id
+   DEBUG=false
+   Save with CTRL+O then Enter.
+   Exit with CTRL+X.
+
+5. Start the bot
+   npm start
+
+6. The bot is now online!
+   You can send it a private message (DM).
+
+---------------------------------------
+⚠️ IMPORTANT REMINDERS
+---------------------------------------
+- The bot must be added to the Discord server where you want to use it.
+- The bot must have the "Manage Roles" permission.
+- The bot’s role must be placed above the roles it needs to assign.
+- Never share your TOKEN with anyone.
+- Only put your ID (and trusted people’s IDs) in ALLOWED_USERS.

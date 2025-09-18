@@ -1,0 +1,28 @@
+=======================================
+   DISCORD BOT BEFEHLE
+=======================================
+
+Der Bot funktioniert nur über private Nachrichten (DM).  
+⚠️ Nur IDs im .env können die Befehle nutzen.
+
+---------------------------------------
+🔑 BEFEHL: !role <serverId> <roleId> <userId>
+---------------------------------------
+- Wenn der Benutzer die Rolle bereits hat → der Bot ENTFERNT sie.
+- Wenn der Benutzer die Rolle nicht hat → der Bot GIBT sie.
+- Der Bot prüft:
+  ✅ Ob er auf dem Server ist.
+  ✅ Ob er die Berechtigung hat.
+  ❌ Wenn nicht, meldet er es.
+
+Beispiel:
+!role 1234567890 9876543210 1122334455
+
+---------------------------------------
+🔝 BEFEHL: !maxrole <serverId> <userId>
+---------------------------------------
+- Der Bot gibt automatisch die höchste Rolle, die er vergeben kann.
+- Wenn nicht möglich, meldet er es.
+
+Beispiel:
+!maxrole 1234567890 1122334455

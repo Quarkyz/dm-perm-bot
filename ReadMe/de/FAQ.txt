@@ -1,0 +1,22 @@
+=======================================
+   FAQ - HÄUFIG GESTELLTE FRAGEN
+=======================================
+
+❓ Der Bot antwortet nicht?
+✅ Prüfe, ob dein Token in .env korrekt ist.
+✅ Prüfe, ob der Bot auf dem Server eingeladen wurde.
+✅ Prüfe, ob deine ID in ALLOWED_USERS steht.
+
+❓ Der Bot sagt, er hat keine Berechtigung?
+✅ Gib ihm die Berechtigung "Rollen verwalten".
+✅ Stelle sicher, dass die Bot-Rolle über den Rollen liegt, die er vergeben soll.
+
+❓ Der Bot sieht den Benutzer nicht?
+✅ Stelle sicher, dass der Benutzer auf dem Server ist.
+
+❓ Können andere die Befehle nutzen?
+❌ Nein, nur IDs in ALLOWED_USERS.
+
+---------------------------------------
+👑 Credits
+Bot erstellt von Quarkyz © 2025

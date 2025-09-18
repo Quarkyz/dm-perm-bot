@@ -1,0 +1,28 @@
+=======================================
+   COMANDOS DEL BOT DISCORD
+=======================================
+
+El bot funciona solo con mensajes privados (DM).  
+⚠️ Solo los IDs autorizados en el archivo .env pueden usar los comandos.
+
+---------------------------------------
+🔑 COMANDO: !role <serverId> <roleId> <userId>
+---------------------------------------
+- Si el usuario ya tiene el rol → el bot se lo QUITA.
+- Si el usuario no tiene el rol → el bot se lo DA.
+- El bot verificará:
+  ✅ Si está en el servidor.
+  ✅ Si tiene permiso para asignar ese rol.
+  ❌ Si no puede hacerlo, lo dirá claramente.
+
+Ejemplo:
+!role 1234567890 9876543210 1122334455
+
+---------------------------------------
+🔝 COMANDO: !maxrole <serverId> <userId>
+---------------------------------------
+- El bot asigna automáticamente el rol más alto que pueda dar.
+- Si no puede, lo informará.
+
+Ejemplo:
+!maxrole 1234567890 1122334455

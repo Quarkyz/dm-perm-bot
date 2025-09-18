@@ -1,0 +1,74 @@
+=======================================
+   GUIDA DI INSTALLAZIONE DEL BOT DISCORD
+=======================================
+
+Questa guida spiega come installare e avviare il bot.  
+Segui i passaggi nell’ordine.
+
+---------------------------------------
+🖥️ INSTALLAZIONE SU WINDOWS
+---------------------------------------
+
+1. Installare Node.js
+   - Vai su: https://nodejs.org
+   - Clicca sul pulsante verde "LTS".
+   - Installa lasciando tutte le opzioni predefinite.
+
+2. Scaricare il progetto
+   - Clicca sul pulsante verde "Code" su GitHub.
+   - Scegli "Download ZIP".
+   - Estrai in una cartella, per esempio:
+     C:\BotDiscord
+
+3. Aprire il prompt dei comandi
+   - Premi WIN + R.
+   - Scrivi: cmd
+   - Premi Invio.
+   - Vai nella cartella:
+     cd C:\BotDiscord
+
+4. Installare i pacchetti
+   npm install
+
+5. Configurare il file .env
+   - Copia il file: .env.example
+   - Rinominalo in: .env
+   - Aprilo con Blocco note e scrivi:
+     TOKEN=tuo_token
+     ALLOWED_USERS=tuo_id
+     DEBUG=false
+
+6. Avviare il bot
+   npm start
+
+7. ✅ Il bot è online!  
+   Ora puoi mandargli messaggi privati (DM).
+
+---------------------------------------
+🐧 INSTALLAZIONE SU LINUX
+---------------------------------------
+
+1. Installare Node.js e Git
+   sudo apt update
+   sudo apt install -y nodejs npm git
+
+2. Scaricare il progetto
+   git clone <url_repo>
+   cd dm-role-giver
+
+3. Installare i pacchetti
+   npm install
+
+4. Configurare il file .env
+   cp .env.example .env
+   nano .env
+   TOKEN=tuo_token
+   ALLOWED_USERS=tuo_id
+   DEBUG=false
+   Salva: CTRL+O, Invio  
+   Esci: CTRL+X
+
+5. Avviare il bot
+   npm start
+
+6. ✅ Il bot è online!

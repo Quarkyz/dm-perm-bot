@@ -1,0 +1,22 @@
+=======================================
+   FAQ - DOMANDE FREQUENTI
+=======================================
+
+❓ Il bot non risponde?
+✅ Controlla se il token nel file .env è corretto.
+✅ Controlla se il bot è stato invitato sul server.
+✅ Controlla se il tuo ID è in ALLOWED_USERS.
+
+❓ Il bot dice che non ha i permessi?
+✅ Dagli il permesso "Gestire Ruoli".
+✅ Metti il ruolo del bot sopra i ruoli che deve assegnare.
+
+❓ Il bot non vede l’utente?
+✅ Assicurati che l’utente sia nel server.
+
+❓ Altri possono usare i comandi?
+❌ No, solo gli ID presenti in ALLOWED_USERS.
+
+---------------------------------------
+👑 Crediti
+Bot creato da Quarkyz © 2025

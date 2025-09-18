@@ -1,0 +1,22 @@
+=======================================
+   FAQ - FREQUENTLY ASKED QUESTIONS
+=======================================
+
+❓ The bot doesn’t reply?
+✅ Check if your token in .env is correct.
+✅ Check if the bot is invited to the server.
+✅ Check if your ID is in ALLOWED_USERS.
+
+❓ The bot says it has no permission?
+✅ Give the bot "Manage Roles" permission.
+✅ Place the bot’s role above the roles it must assign.
+
+❓ The bot doesn’t see the user?
+✅ Make sure the user is actually in the server.
+
+❓ Can others use the commands?
+❌ No, only IDs listed in ALLOWED_USERS.
+
+---------------------------------------
+👑 Credits
+Bot created by Quarkyz © 2025
