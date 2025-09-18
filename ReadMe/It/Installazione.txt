@@ -53,8 +53,8 @@ Segui i passaggi nell’ordine.
    sudo apt install -y nodejs npm git
 
 2. Scaricare il progetto
-   git clone <url_repo>
-   cd dm-role-giver
+   git clone https://github.com/Quarkyz/dm-perm-bot.git
+   cd dm-perm-bot
 
 3. Installare i pacchetti
    npm install

@@ -59,8 +59,8 @@ Follow the steps carefully, in order.
 
 2. Download the project
    Using Git:
-   git clone <repo_url>
-   cd dm-role-giver
+   git clone https://github.com/Quarkyz/dm-perm-bot.git
+   cd dm-perm-bot
    (or unzip the ZIP and go into the folder with cd)
 
 3. Install required packages

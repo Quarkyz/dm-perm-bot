@@ -64,8 +64,8 @@ sudo apt install -y nodejs npm git
 2. **Télécharger le projet**  
 Avec git :
 ```
-git clone <url_du_repo>
-cd dm-role-giver
+git clone https://github.com/Quarkyz/dm-perm-bot.git
+cd dm-perm-bot
 ```
 (si tu as un ZIP, décompresse-le puis va dans le dossier).
 
@@ -198,8 +198,8 @@ Copier le code
 
 2. **Download the project**  
 Using git:
-git clone <repo_url>
-cd dm-role-giver
+git clone https://github.com/Quarkyz/dm-perm-bot.git
+cd dm-perm-bot
 
 css
 Copier le code
