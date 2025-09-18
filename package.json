@@ -1,0 +1,15 @@
+{
+  "name": "discord-role-bot",
+  "version": "1.0.0",
+  "description": "Obtenez discrètement les rôles d’un serveur Discord grâce à ce bot Discord, tout en gardant un contrôle complet et secret sur son utilisation",
+  "main": "index.js",
+  "author": "Quarkyz",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
